@@ -21,11 +21,10 @@
             height: 0;
             width: 0;
             border-radius: 50%;
-            border: 3px solid #708090;
+            border: 3px solid #902110;
         }
 
         .clock-loader .dot:nth-child(1) {
-            border-color: #902110;
             left: 50%;
             top: 2px;
             transform: translateX(-50%);
@@ -107,6 +106,9 @@
         }
 
         @keyframes selectHour3 {
+            0% {
+                border-color: #708090;
+            }
             23% {
                 border-color: #708090;
             }
@@ -116,9 +118,15 @@
             27% {
                 border-color: #708090;
             }
+            100% {
+                border-color: #708090;
+            }
         }
 
         @keyframes selectHour6 {
+            0% {
+                border-color: #708090;
+            }
             48% {
                 border-color: #708090;
             }
@@ -128,9 +136,15 @@
             52% {
                 border-color: #708090;
             }
+            100% {
+                border-color: #708090;
+            }
         }
 
         @keyframes selectHour9 {
+            0% {
+                border-color: #708090;
+            }
             73% {
                 border-color: #708090;
             }
@@ -138,6 +152,9 @@
                 border-color: #902110;
             }
             77% {
+                border-color: #708090;
+            }
+            100% {
                 border-color: #708090;
             }
         }
